@@ -79,9 +79,7 @@ int main(void)
 		{
 			/* Fan is on at high speed State */
 			LCD_displayString("Fan is ON ");
-			LCD
-
-
+	
 
 	}
 
