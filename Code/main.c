@@ -2,7 +2,7 @@
   * @file 	main.c
   * @brief APP Source file.
   *
-  * This file contains The Application of Simple Calculator
+  * This file contains The Application of The Fan Controller 
   *
   * @author [Mohamed Mabrouk]
   * @date [13 FEB 2024]
@@ -32,7 +32,7 @@
 int main(void)
 {
 	/* Initialize variables and peripherals */
-	uint8_t temp_value = 0;
+	uint8 temp_value = 0;
 	LCD_init();
 	DcMotor_init();
 	ADC_init(&ADC_Configuration);
